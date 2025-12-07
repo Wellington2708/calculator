@@ -1,7 +1,10 @@
+import {InputContainer} from './styles.js';
+
 const Input = () => {
     return (
-      <div className="App">
-      </div>
+      <InputContainer>
+        <input disabled/>
+      </InputContainer>
     );
   }
   

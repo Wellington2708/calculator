@@ -12,6 +12,22 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     background-color: #FFF;
-    width: 80%;
+    width: 30%;
     min-height: 350px;
+`
+
+export const Row = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+`
+
+export const Column = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
 `
