@@ -1,9 +1,15 @@
+import Input from "./components/Input";
+import Button from "./components/Button";
+import { Container, Content } from "../src/styles.js";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     
-    </div>
+    <Container>
+      <Content>
+        <Input />
+        <Button />
+      </Content>
+    </Container>
   );
 }
 
