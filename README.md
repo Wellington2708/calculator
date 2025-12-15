@@ -47,3 +47,53 @@ The calculator uses three main state variables:
 
 
 
+# Calculadora em React
+
+Este projeto é uma calculadora simples desenvolvida com **React** e **styled-components**, criada com foco em aprendizado.  
+O objetivo principal é praticar **gerenciamento de estado**, **eventos** e **lógica básica de calculadora** em React.
+
+## 🚀 Funcionalidades
+
+- Operações aritméticas básicas:
+  - Soma (+)
+  - Subtração (-)
+  - Multiplicação (*)
+  - Divisão (/)
+- Cálculo de porcentagem (%)
+- Função de limpar (C)
+- Suporte a números decimais
+- Botões interativos
+- Layout responsivo com styled-components
+
+## 🧠 Como Funciona
+
+A calculadora utiliza três estados principais:
+
+- `currentNumber`: armazena o número atualmente exibido
+- `firstNumber`: armazena o primeiro operando da operação
+- `operation`: armazena a operação selecionada
+
+### Fluxo das Operações
+
+1. O usuário digita os números usando os botões numéricos.
+2. Ao pressionar um botão de operação (`+`, `-`, `*`, `/`):
+   - O número atual é salvo em `firstNumber`
+   - A operação é armazenada
+   - O display é resetado
+3. O botão `%`:
+   - Converte o número atual em porcentagem
+   - Caso exista uma operação, a porcentagem é calculada com base no primeiro número
+4. O botão `=` executa o cálculo conforme a operação selecionada.
+5. O resultado é exibido e o estado da calculadora é reiniciado.
+
+## 🛠 Tecnologias Utilizadas
+
+- React
+- JavaScript (ES6+)
+- styled-components
+
+## 📂 Estrutura do Projeto
+
+
+
+
