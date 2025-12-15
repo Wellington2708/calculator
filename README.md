@@ -1,3 +1,6 @@
+[Deploy Vercel](https://calculator-psi-lime-21.vercel.app/)
+
+
 # React Calculator
 
 This project is a simple calculator built with **React** and **styled-components**, created for learning purposes.  
@@ -43,7 +46,7 @@ The calculator uses three main state variables:
 - JavaScript (ES6+)
 - styled-components
 
-## 📂 Project Structure
+
 
 
 
@@ -92,7 +95,6 @@ A calculadora utiliza três estados principais:
 - JavaScript (ES6+)
 - styled-components
 
-## 📂 Estrutura do Projeto
 
 
 
